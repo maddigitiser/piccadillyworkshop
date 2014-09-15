@@ -1,6 +1,7 @@
 /**
  * Site header
  */
+/*
 .site-header {
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
@@ -9,8 +10,9 @@
     // Positioning context for the mobile navigation icon
     position: relative;
 }
-
+*/
 .site-title {
+    margin-left: 10px;
     font-size: 26px;
     line-height: 56px;
     letter-spacing: -1px;
@@ -22,7 +24,7 @@
         color: $grey-color-dark;
     }
 }
-
+/*
 .site-nav {
     float: right;
     line-height: 56px;
@@ -85,12 +87,13 @@
         }
     }
 }
-
+*/
 
 
 /**
  * Site footer
  */
+/*
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
@@ -155,12 +158,13 @@
         width:         calc(100% - (#{$spacing-unit} / 2));
     }
 }
-
+*/
 
 
 /**
  * Page content
  */
+/*
 .page-content {
     padding: $spacing-unit 0;
 }
@@ -188,11 +192,12 @@
     font-size: 24px;
 }
 
-
+*/
 
 /**
  * Posts
  */
+/*
 .post-header {
     margin-bottom: $spacing-unit;
 }
@@ -206,9 +211,10 @@
         font-size: 36px;
     }
 }
-
+*/
 .post-content {
     margin-bottom: $spacing-unit;
+    font-family: sans-serif;
 
     h2 {
         font-size: 32px;
